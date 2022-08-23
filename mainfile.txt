@@ -1,1 +1,16 @@
-Commit new file
+myfile=open("file.txt","w+")
+myfile.write("this is written by the user")
+
+myfile=open("file.txt","r+")
+print(myfile.read())
+
+myfile=open("file.txt","a+")
+print(myfile.read())
+
+myfile=open("file.txt","w+")
+myfile.write("this is written by the user")
+
+myfile=open("file.txt","a+")
+print(myfile.read())
+
+
