@@ -1,10 +1,13 @@
-myfile=open("file.txt","w+")
+w+ means reading and writing the file
+EX:myfile=open("file.txt","w+")
 myfile.write("this is written by the user")
 
-myfile=open("file.txt","r+")
+r+ means reading and writing the file
+EX:myfile=open("file.txt","r+")
 print(myfile.read())
 
-myfile=open("file.txt","a+")
+a+ means reading and writing the file append mode
+EX:myfile=open("file.txt","a+")
 print(myfile.read())
 
 myfile=open("file.txt","w+")
